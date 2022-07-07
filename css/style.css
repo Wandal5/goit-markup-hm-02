@@ -28,6 +28,11 @@ background:var(--color-white);
 .list {
     list-style-type: none;
 }
+.portfolio-item{
+    list-style-type: none;
+    color: currentColor;
+    text-decoration: none;
+}
 
 .link { 
     color: currentColor;
@@ -169,7 +174,7 @@ background:var(--color-white);
 .footer-address{
     font-style: normal;
 }
-.portfolio-nav {
+.portfolio-list {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
