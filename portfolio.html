@@ -12,36 +12,41 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <!--шапка сайта-->
     <header class="page-header">
       <nav>
-        <a href="index.html" class="logo">Web<span class="logo-studio">Studio</span></a>
-        <ul class="site-nav">
-          <li><a href="index.html">Студия </a></li>
-          <li><a href="portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <a href="index.html" class="link logo">Web<span class="logo-studio">Studio</span></a>
+        <ul class="list site-nav">
+          <li><a href="index.html" class="link">Студия </a></li>
+          <li><a href="portfolio.html" class="link blue">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="contact-links">
-        <li class="contact">
-          <a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a>
-        </li>
-        <li class="contact"><a href="tel:+380961111111" class="contact">+38 096 111 11 11</a></li>
+      <ul class="list contact-list">
+        <li><a href="mailto:info@devstudio.com" class="link contact">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="link contact">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
+      <!--главная страница-->
       <section>
         <h1>Блок кнопок</h1>
-        <ul class="filter-list">
-          <li><button type="button" class="filter-button">Всё</button></li>
-          <li><button type="button" class="filter-button">Веб-сайты</button></li>
-          <li><button type="button" class="filter-button">Приложения</button></li>
-          <li><button type="button" class="filter-button">Дизайн</button></li>
-          <li><button type="button" class="filter-button">Маркетинг</button></li>
+        <ul class="filter-list list">
+          <li class="filter-item"><button type="button" class="filter-button">Всё</button></li>
+          <li class="filter-item">
+            <button type="button" class="filter-button">Веб-сайты</button>
+          </li>
+          <li class="filter-item">
+            <button type="button" class="filter-button">Приложения</button>
+          </li>
+          <li class="filter-item"><button type="button" class="filter-button">Дизайн</button></li>
+          <li class="filter-item">
+            <button type="button" class="filter-button">Маркетинг</button>
+          </li>
         </ul>
-      </section>
-      <section>
+
         <h2>Списки работ</h2>
-        <ul class="portfolio-nav">
+        <ul class="portfolio-nav list">
           <li>
             <img src="./images/macbook_pro.jpg" alt="Технокряк" width="370" height="294" />
             <h3 class="studio-title">Технокряк</h3>
@@ -59,7 +64,7 @@
           </li>
           <li>
             <img src="./images/macbook_pro_3.jpg" alt="Ресторан Seafood" width="370" height="294" />
-            <h3>Ресторан Seafood</h3>
+            <h3 class="studio-title">Ресторан Seafood</h3>
             <p>Приложения</p>
           </li>
           <li>
@@ -105,21 +110,22 @@
         </ul>
       </section>
     </main>
+    <!---футер-->
     <footer class="footer-section">
-      <a href="index.html" class="logo">Web<span class="logo-studio">Studio</span></a>
-      <address class="adress-links">
-        <ul>
+      <a href="index.html" class="link logo">Web<span class="logo-studio">Studio</span></a>
+      <address class="footer-address">
+        <ul class="list adress-links">
           <li>
             <a
-              class="map"
+              class="link map"
               href="https://goo.gl/maps/7oPvkChuXzZk7sUt8"
               target="_blank"
               rel="noreferrer noopener"
               >Kyiv, Lesia Ukrainka Ave, 26</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="contact">+38 096 111 11 11</a></li>
+          <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>
